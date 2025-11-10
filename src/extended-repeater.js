@@ -15,7 +15,6 @@ const { NotImplementedError } = require('../lib');
  * => 'STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS**STRINGPLUS00PLUS00PLUS'
  *
  */
-<<<<<<< HEAD
 function repeater(str, options) {
   const repeatTimes = options.repeatTimes;
   const separator = options.separator || '+';
@@ -28,12 +27,6 @@ function repeater(str, options) {
 
   return mainPart
 
-=======
-
-function repeater(/* str, options */) {
-  // Remove line below and write your code here
-  throw new NotImplementedError('Not implemented');
->>>>>>> upstream/master
 }
 
 module.exports = {

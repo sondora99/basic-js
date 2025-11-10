@@ -22,7 +22,6 @@ const { NotImplementedError } = require('../lib');
  * }
  *
  */
-<<<<<<< HEAD
 function getDNSStats(domains) {
   let result = {};
 
@@ -37,11 +36,6 @@ function getDNSStats(domains) {
   })
   return result;
 
-=======
-function getDNSStats(/* domains */) {
-  // Remove line below and write your code here
-  throw new NotImplementedError('Not implemented');
->>>>>>> upstream/master
 }
 
 module.exports = {

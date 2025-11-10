@@ -10,7 +10,6 @@ const { NotImplementedError } = require('../lib');
  * For aabbbc should return 2a3bc
  *
  */
-<<<<<<< HEAD
 function encodeLine(str) {
   let result = '';
   let count = 1;
@@ -28,12 +27,6 @@ function encodeLine(str) {
   }
   return result;
 
-=======
-
-function encodeLine(/* str */) {
-  // Remove line below and write your code here
-  throw new NotImplementedError('Not implemented');
->>>>>>> upstream/master
 }
 
 module.exports = {
